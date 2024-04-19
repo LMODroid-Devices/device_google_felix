@@ -6,18 +6,18 @@
 
 # Inherit some common Lineage stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/felix/aosp_felix.mk)
-$(call inherit-product, device/google/gs201/lineage_common.mk)
+$(call inherit-product, device/google/gs201/lmodroid_common.mk)
 $(call inherit-product, device/google/felix/device-lineage.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/window_extensions.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel Fold
-PRODUCT_NAME := lineage_felix
+PRODUCT_NAME := lmodroid_felix
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2092

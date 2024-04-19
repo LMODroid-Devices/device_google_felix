@@ -1,0 +1,11 @@
+[
+  {
+    "repository": "LMODroid-Devices/device_google_gs201",
+    "target_path": "device/google/gs201"
+  },
+  {
+    "remote": "lineage",
+    "repository": "device/google/felix-kernel",
+    "target_path": "device/google/felix-kernel"
+  }
+]
